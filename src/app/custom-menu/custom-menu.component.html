@@ -1,0 +1,9 @@
+<div class="NgxEditor__Separator"></div>
+<div
+  *ngFor="let dino of dinos"
+  class="NgxEditor__MenuItem NgxEditor__MenuItem--Text custom-text-item"
+  (mousedown)="onClick($event, dino)"
+  [ngClass]="{'NgxEditor__MenuItem--Active': isActive, 'NgxEditor--Disabled': isDisabled}"
+>
+  {{dino}}
+</div>
