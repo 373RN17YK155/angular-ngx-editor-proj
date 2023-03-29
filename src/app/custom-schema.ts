@@ -1,5 +1,5 @@
-import {Schema, NodeSpec, MarkSpec} from "prosemirror-model"
-import {schema, toDoc} from "ngx-editor"
+import {Schema, NodeSpec} from "prosemirror-model"
+import {schema} from "ngx-editor"
 
 export const dinos = ["brontosaurus", "stegosaurus", "triceratops", "tyrannosaurus", "pterodactyl"];
 
